@@ -1,0 +1,30 @@
+# GENERATED FILE. DO NOT EDIT
+# Edit conan.txt instead
+
+[requires]
+libiconv/1.16
+qt/5.14.2@bincrafters/stable
+date/2.4.1
+boost/1.74.0
+
+[generators]
+cmake
+
+[options]
+boost:without_python=False
+
+qt:with_sqlite3=False
+qt:with_mysql=False
+qt:with_glib=False
+qt:with_freetype=False
+qt:with_fontconfig=False
+qt:with_harfbuzz=False
+qt:opengl=no
+qt:shared=False
+
+qt:qtsensors=True
+qt:qtserialbus=True
+qt:qtserialport=True
+
+qt:qtconnectivity=True
+
