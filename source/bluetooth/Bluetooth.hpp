@@ -13,6 +13,10 @@ namespace bl {
 
     class Bluetooth {
 
+    public:
+
+        static void test();
+
     };
 
 }
